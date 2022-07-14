@@ -19,7 +19,7 @@
         <td>
 
             <a href="<?= $base; ?>/usuario/<?= $usuario['id']?>/editar">[Editar]</a>
-            <a href="<?php echo $base; ?>/usuario/<?echo $usuario['id']?>/excluir">[Excluir]</a>
+            <a href="<?= $base; ?>/usuario/<?= $usuario['id']?>/excluir" onclick="return confirm('Tem certeza que deseja excluir?')">[Excluir]</a>
         </td>
 
 

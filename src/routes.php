@@ -12,3 +12,6 @@ $router->post('/novo', 'UsuariosController@addaction');
 // editar
 $router->get('/usuario/{id}/editar', 'UsuariosController@edit');
 $router->post('/usuario/{id}/editar', 'UsuariosController@editAction');
+
+// deletar
+$router->get('/usuario/{id}/excluir', 'UsuariosController@del');
