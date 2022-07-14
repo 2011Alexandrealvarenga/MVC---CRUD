@@ -2,7 +2,7 @@
 namespace src;
 
 class Config {
-    const BASE_DIR = '/MVC---CRUD/public';
+    const BASE_DIR = '/PHP/cursos/b7web/exercicios%20e%20atividades/MVC---CRUD/public';
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost';
