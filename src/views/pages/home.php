@@ -18,8 +18,12 @@
         <td><?php echo $usuario['email']; ?></td>
         <td>
 
-            <a href="<?= $base; ?>/usuario/<?= $usuario['id']?>/editar">[Editar]</a>
-            <a href="<?= $base; ?>/usuario/<?= $usuario['id']?>/excluir" onclick="return confirm('Tem certeza que deseja excluir?')">[Excluir]</a>
+            <a href="<?= $base; ?>/usuario/<?= $usuario['id']?>/editar">
+                <img src="<?= $base; ?>/assets/images/document.png" width="20" alt="">
+            </a>
+            <a href="<?= $base; ?>/usuario/<?= $usuario['id']?>/excluir" onclick="return confirm('Tem certeza que deseja excluir?')">
+                <img src="<?= $base; ?>/assets/images/trash.png" width="20" alt="">
+            </a>
         </td>
 
 
